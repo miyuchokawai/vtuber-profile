@@ -1,0 +1,94 @@
+
+body {
+  margin: 0;
+  font-family: "Microsoft JhengHei", sans-serif;
+  background-color: #fde1d9;
+  color: #684D9C;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #684D9C;
+  color: white;
+  padding: 10px 20px;
+}
+
+.channel-name {
+  font-size: 20px;
+}
+
+.main-content {
+  text-align: center;
+  padding: 20px;
+}
+
+.main-img {
+  max-width: 60%;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(104, 77, 156, 0.4);
+}
+
+.music-toggle {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  font-size: 24px;
+  background-color: #684D9C;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin: 20px;
+}
+
+.chat-room {
+  margin-top: 30px;
+}
+
+.chat-log {
+  background: white;
+  height: 150px;
+  width: 80%;
+  margin: auto;
+  overflow-y: scroll;
+  border: 2px solid #684D9C;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+#chatInput {
+  width: 60%;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+#sendBtn {
+  padding: 10px 20px;
+  margin-left: 10px;
+  background-color: #684D9C;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.easter-egg {
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  cursor: pointer;
+}
+
+.egg-img {
+  width: 60px;
+}
+
+.egg-dialog {
+  display: none;
+  background: #fff;
+  border: 2px solid #684D9C;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 5px;
+  font-size: 14px;
+}

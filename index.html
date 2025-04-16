@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <title>悠咪的小天地</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+  <div class="header">
+    <div class="live-status">🔴 LIVE ING</div>
+    <div class="channel-name">悠咪的小天地</div>
+  </div>
+
+  <div class="main-content">
+    <img src="插圖6.png" class="main-img" />
+    <button class="music-toggle" id="toggleMusic">🎵</button>
+    <audio id="bgm" loop>
+      <source src="muse.mp3" type="audio/mpeg" />
+    </audio>
+    <div class="chat-room">
+      <div class="chat-log" id="chatLog"></div>
+      <input type="text" id="chatInput" placeholder="輸入訊息..." />
+      <button id="sendBtn">送出</button>
+    </div>
+  </div>
+
+  <div class="easter-egg" id="egg">
+    <img src="new.png" class="egg-img"/>
+    <div class="egg-dialog" id="eggDialog">嗶嗶～發現彩蛋！我是悠咪的祕密夥伴(⁎⁍̴̛ᴗ⁍̴̛⁎)</div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
